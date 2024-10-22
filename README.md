@@ -1,1 +1,7 @@
-# shape
+# SHAPEtrack
+This is a repository for the tracking tool **SHAPE** - **S**uper-Resolution **H**igh-accuracy **A**nalysis of **P**lasma membrane **E**vents. All the source code and data will be made available once the publication preprint is released. We invite you to add a watch to this project if you're interested.
+
+![teaser](https://github.com/user-attachments/assets/5e61f1b4-8c6d-4ce3-9bab-1230b274b1ad)
+
+### Abstract
+Plasma membrane processes like clathrin-mediated endocytosis and constitutive exocytosis are often studied using diffraction-limited imaging methods. Structured Illumination Microscopy (SIM) with Total Internal Reflection Fluorescence (TIRF) offers a super-resolution technique for these studies in living cells. However, no automated, publicly available tool has existed for processing TIRF-SIM time-lapse images. We present an open-source image processing pipeline for tracking and analysing plasma membrane processes in high frame-rate (10FPS), high-resolution TIRF-SIM movies. It significantly improves tracking accuracy, nearing human-level performance, with over 10% improvement in MOTA and HOTA metrics compared to previous methods for diffraction-limited data, as validated on a new publicly available expert-annotated benchmark. A key feature is its ability to leverage the high resolution to evaluate the productivity of tracked events, accurately identifying vesicles that successfully transport cargo across the plasma membrane. Our tool enhances accuracy and reduces manual intervention, facilitating high-throughput analysis of dynamic cellular events. This advancement is crucial for deepening our understanding of plasma membrane processes and their regulation in maintaining cell homeostasis.
